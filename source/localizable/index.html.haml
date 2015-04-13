@@ -54,6 +54,9 @@ title: Petter och Charlotta
       .poem
         - t(:poem, scope: [:wishlist]).each do |line|
           %p= line
+      %h3= t(:account_heading, scope: [:wishlist])
+      .account
+        %p= t(:account, scope: [:wishlist])
     .medium-6.column
       .image-container
         #petter-charlotta
