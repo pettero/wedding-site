@@ -1,0 +1,59 @@
+---
+title: Petter och Charlotta
+---
+%a.exit-off-canvas
+.full-width
+  .row
+    .small-12.column
+      %h2{:data => {'magellan-destination' => 'welcome'}}
+        %a{:name => 'welcome'}
+        =t :title, scope: :welcome
+    .medium-6.medium-push-6.column
+      .image-container
+        #popaganda-image
+    .medium-6.medium-pull-6.column
+      - t(:content, scope: :welcome).each do |text|
+        %p= text
+    .clearfix 
+.full-width
+  = partial 'rsvp'
+.full-width
+  = partial 'wedding-couple'
+.full-width
+  = partial 'toastmasters'
+.full-width
+  .row
+    .small-12.column
+      %h2{:data => {'magellan-destination' => 'information'}}
+        %a{:name => 'information'}
+        = t :title, scope: :practical_information
+    .small-12.column
+      %dl
+        - t(:info, scope: :practical_information).each do |item|
+          %dt= item[:t]
+          %dd
+            - if item[:d].is_a? Array
+              - item[:d].each do |row|
+                %p= row
+            - else
+              %p= item[:d]
+.full-width
+  .row
+    .small-12.column
+      = partial 'directions'
+.full-width
+  .row
+    .small-12.column
+      = partial :history
+.full-width
+  .row
+    .medium-6.column
+      %h2{:data => {'magellan-destination' => 'gifts'}}
+        = t(:title, scope: [:wishlist])
+        %a{:name => 'gifts'}
+      .poem
+        - t(:poem, scope: [:wishlist]).each do |line|
+          %p= line
+    .medium-6.column
+      .image-container
+        #petter-charlotta

@@ -1,0 +1,16 @@
+.menu
+  .nav{:data => {'magellan-expedition' => 'fixed'}}
+    %dl.sub-nav
+      %dd.show-for-small
+        = link_to '#', :class => 'left-off-canvas-toggle' do 
+          %i.fi-list
+      - t(:menu).each do |key, text|
+        %dd{ :data => {'magellan-arrival' => "#{key}"}}
+          %a{'href' => "##{key}"}
+            = text
+  %aside.left-off-canvas-menu{ 'aria-hidden'=>'true' }
+    %ul
+      - t(:menu).each do |key, text|
+        %li
+          %a{'href' => "##{key}"}
+            = text

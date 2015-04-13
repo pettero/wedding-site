@@ -1,0 +1,167 @@
+@import 'foundation';
+@import 'history';
+@import 'variables';
+@import url('http://fonts.googleapis.com/css?family=Merriweather:300,700&subset=latin,latin-ext');
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: 'Merriweather', serif;
+}
+
+.index {
+  .full-width {
+    padding: 15px 0 20px 0;
+
+    &:nth-child(2n) {
+      background-color: #F7F5F1;
+    }
+    &:nth-child(2n+1) {
+      background-color: #fff;
+    }
+  }
+
+  .menu {
+    $menu-background-color: $main-color;
+    background-color: #00f;
+    // position: fixed;
+    // top: 0;
+    width: 100%;
+
+    .sub-nav {
+      a {
+        @media #{$small-only} {
+          display: none;
+        }
+        &.left-off-canvas-toggle{
+          @media #{$small-only} {
+            display: inline-block;
+          }
+        }
+      }
+      .active { 
+        a {
+          background-color: darken($menu-background-color, 5%);
+          display: inline-block;
+        }
+      }
+    }
+
+    [data-magellan-expedition], 
+    [data-magellan-expedition-clone] {
+      // background-color: #f00;
+      background-color: $menu-background-color;
+
+
+    }
+    .left-off-canvas-toggle {
+      i {
+        font-size: 24px;
+      }
+    }
+    .left-off-canvas-menu {
+      background-color: $menu-background-color;
+
+      ul {
+        position: fixed;
+        list-style: none;
+        top: 24px;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .poem {
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.sub-nav {
+  dd {
+    a {
+      color: #fff;
+    }
+  }
+}
+.image-container {
+  text-align: center;
+
+  %image {
+    $image-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    height: $image-size;
+    width: $image-size;
+  }
+
+  #petter-charlotta {
+    @extend %image;
+    background-image: image-url("petter-charlotta.jpg");
+    background-position: 50% 50%;
+    background-size: 140%;
+  }
+
+  #hanna {
+    @extend %image;
+    background-image: image-url("hanna.jpg");
+    background-position: 50% 50%;
+    background-size: 140%;
+  }
+
+  #magnus {
+    @extend %image;
+    background-image: image-url("magnus.jpg");
+    background-position: 64% 40%;
+    background-size: 200%;
+  }
+
+  #charlotta {
+    @extend %image;
+    background-image: image-url("charlotta.jpg");
+    background-position: 64% 28%;
+    background-size: 100%;
+  }
+
+  #petter {
+    @extend %image;
+    background-image: image-url("petter.jpg");
+    background-position: 57% 23%;
+    background-size: 100%;
+  }
+
+  #popaganda-image {
+    @extend %image;
+    background-image: image-url("popaganda.jpg");
+    background-position: 30% 0%;
+    background-size: 150%;
+  }
+}
+
+.contact {
+  p {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  ul {
+    margin-left: 0;
+    li {
+      font-weight: bold;
+      list-style: none;
+
+      li {
+        font-weight: normal;
+      }
+    }
+  }
+}

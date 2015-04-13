@@ -1,0 +1,26 @@
+.row
+  .small-12.column
+    %h2{:data => {'magellan-destination' => 'wedding_couple'}}
+      %a{:name => 'wedding_couple'}
+      = t :title, scope: :contact
+    %p= t :content, scope: :contact
+  .medium-6.column.contact
+    .image-container
+      #charlotta
+    %p= t(:name, scope: [:contact, :persons, :charlotta])
+    %ul
+      %li
+        = t(:contact, scope: :contact)
+        %ul
+          %li= t(:email, scope: [:contact, :persons, :charlotta])
+          %li= t(:phone, scope: [:contact, :persons, :charlotta])
+  .medium-6.column.contact
+    .image-container
+      #petter
+    %p= t(:name, scope: [:contact, :persons, :petter])
+    %ul
+      %li
+        = t(:contact, scope: [:contact])
+        %ul
+          %li= t(:email, scope: [:contact, :persons, :petter])
+          %li= t(:phone, scope: [:contact, :persons, :petter])

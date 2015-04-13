@@ -1,0 +1,11 @@
+%h2{:data => {'magellan-destination' => 'history'}}
+  = t :title, scope: [:history]
+  %a{:name => 'history'}
+.history-container
+  .line
+  - t(:items, scope: [:history]).each do |event|
+    .event
+      .content
+        %h2= event[:w]
+        %p= event[:d]
+  .clearfix

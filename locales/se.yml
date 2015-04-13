@@ -1,0 +1,157 @@
+---
+se:
+  title: Petter och Charlotta
+  menu:
+    welcome: Varmt välkomna
+    rsvp: Anmälan
+    wedding_couple: Kontakt
+    information: Praktisk information
+    directions: Vägbeskrivning
+    history: Vår historia
+    gifts: Gåvor
+  welcome:
+    title: "Välkomna"
+    content: 
+      - >
+        Varmt välkomna till Petter och Charlottas bröllopshemsida. 
+        Här finner ni förhoppningsvis all information ni behöver 
+        inför bröllopet den 16 maj 2015. 
+      - >
+        Vigseln kommer äga rum tillsammans med den närmaste familjen 
+        i Stockholm stadshus tidigare samma dag och klockan 16:00 inbjuds 
+        övriga gäster till mingel, middag och fest i Kolskjulet på Kastellholmen i 
+        Stockholm.
+  rsvp:
+    title: Kommer ni?
+    content:
+      - O.S.A. senast den 31:a mars
+      - >
+        Anmälan sker via e-post till charlotta_karelmo@mail.com eller 
+        via telefon till Charlotta på 0730 28 08 33 eller Petter på 070-369 36 77.
+  contact:
+    title: Kontakt
+    content: >
+      Skulle det vara något och ni har några funderingar kan det vara bra att
+      ha uppgifter till oss båda.
+    contact: Kontaktinformation
+    persons:
+      petter:
+        name: Petter Olofsson
+        email: olofsson.petter@gmail.com
+        phone: 070-369 36 77
+      charlotta:
+        name: Charlotta Karelmo
+        email: charlotta_karelmo@mail.com
+        phone: 0730-28 08 33
+  toastmasters:
+    title: Toastmasters
+    content: >
+      Kvällens toastmasters kan det alltid vara bra att ha lite koll på för att 
+      veta vem man ska stryka medhårs för att få lite extra tid i talarstolen 
+      och annat viktigt. 
+    contact: Kontaktinformation
+    persons:
+      magnus:
+        image: magnus.jpg
+        name: Magnus Mikaelsson
+        email: info@magnusmikaelsson.com
+        phone: 070-334 04 02
+      hanna:
+        image: hanna.jpg
+        name: Hanna Björk
+        email: hanna.gymnastik@gmail.com
+        phone: 070-218 08 09
+  directions:
+    title: Vägbeskrivning
+    content: 
+      - >
+        Vill man åka kommunalt går det bra att ta bussen till kastellholmsbron. 
+        Stockholmare kollar upp avgångar på sl.se.
+      - >
+        Känns det jobbigt att åka buss så går det bra att åka taxi hela vägen.
+  practical_information:
+    title: Praktisk information
+    info:
+      -
+        t: Klädsel
+        d: Kavaj
+      -
+        t: Barn
+        d: >
+          Det är 15 års åldersgräns som gäller denna kväll och barn yngre än 
+          så hoppas vi får en mysig kväll med barnvakten. Detta för att mamma 
+          och pappa ska kunna släppa loss ordentligt!
+      -
+        t: Transport
+        d: Taxi, buss, Sthlm city-bikes eller apostlahästar. 
+      -
+        t: Allergier
+        d: Meddela eventuella allergier och kostpreferenser i samband med anmälan.
+  history:
+    title: Vår historia
+    content: >
+      För er som inte känner oss som ett par så tänkte vi ge er en kort historia
+      över vår tid tillsammans.
+    items:
+      - 
+        w: Oktober 1981 
+        d: Petter föds på Norrlands Universitetssjukhus i Umeå
+      -
+        w: Oktober 1982 
+        d: Charlotta föds på Norrlands Universitetssjukhus i Umeå
+      -
+        w: 1985
+        d: Utan att vara dålig lär sig Petter spela tennis
+      -
+        w: Sommaren 1992
+        d: >
+          Charlotta rymmer hemifrån, men tvingas efter ca 600 m underkasta sig
+          hungern och vända hem. Ett misslyckande.
+      -
+        w: December 1992
+        d: >
+          Charlotta debuterar som tävlingsgymnast och bjuder, lätt traumatiserad, på
+          gråtkalas hela vägen hem från Bräntbergsskolan. 
+      -
+        w: augusti 2002 
+        d: Petter träffar Charlotta 
+      -
+        w: juli 2003
+        d: Charlotta träffar Petter
+      -
+        w: augusti 2005
+        d: Charlotta tar sitt pick och pack och lillasyster och flyttar till Stockholm
+      -
+        w: maj 2006
+        d: >
+          Charlotta börjar på AstraZeneca och lär sig att innanför tullarna eller ej 
+          - Söder är off.
+      -
+        w: augusti 2007
+        d: Petter flyttar till Stockholm och blir som tur är kvar även han.
+      -
+        w: december 2008
+        d: Petter och hans tre kollegor grundar Screen Interaction.
+      -
+        w: augusti 2010
+        d: Vi träffar varandra igen. Denna gång samtidigt.
+      -
+        w: januari 2012
+        d: Vår första date …och Petter spenderar natten ute i trapphuset.
+      -
+        w: april 2013
+        d: Ser över boendesituationen. Vi flyttar ihop i Liljeholmskajen.
+      -
+        w: november 2013
+        d: Vi förlovar oss under en spahelg på Hasseludden.
+  wishlist:
+    title: Presenter
+    poem: 
+      - Vår högsta önskan är att bli herr och fru,
+      - och att med släkt och vänner få fira detta nu.
+      - Vi har grubblat och funderat,
+      - och vårt hushåll grundligt studerat.
+      - Man kan snabbt konstatera 
+      - att vi varken behöver eller rymmer mera!
+      - Så det vi önskar oss mest,
+      - är en slant till denna fest.

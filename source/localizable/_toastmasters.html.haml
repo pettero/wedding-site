@@ -1,0 +1,26 @@
+.row
+  .small-12.column
+    %h2{:data => {'magellan-destination' => 'toastmasters'}}
+      %a{:name => 'toastmasters'}
+      = t :title, scope: :toastmasters
+    %p= t :content, scope: :toastmasters
+  .medium-6.column.contact
+    .image-container
+      #hanna
+    %p= t(:name, scope: [:toastmasters, :persons, :hanna])
+    %ul
+      %li
+        = t(:contact, scope: :toastmasters)
+        %ul
+          %li= t(:email, scope: [:toastmasters, :persons, :hanna])
+          %li= t(:phone, scope: [:toastmasters, :persons, :hanna])
+  .medium-6.column.contact
+    .image-container
+      #magnus
+    %p= t(:name, scope: [:toastmasters, :persons, :magnus])
+    %ul
+      %li
+        = t(:contact, scope: [:toastmasters])
+        %ul
+          %li= t(:email, scope: [:toastmasters, :persons, :magnus])
+          %li= t(:phone, scope: [:toastmasters, :persons, :magnus])

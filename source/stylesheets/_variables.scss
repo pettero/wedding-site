@@ -1,0 +1,6 @@
+$main-color : #800A2D;
+
+$screen: "only screen";
+$medium-range: (40.063em, 64em);
+$medium-up: "#{$screen} and (min-width: 40.063em)";
+$small-only: "#{$screen} and (max-width: 40.063em)";

@@ -1,0 +1,22 @@
+{
+  "name": "pettercharlotta",
+  "version": "1.0.0",
+  "authors": [
+    "Petter Olofsson <petter.olofsson@screeninteraction.com>"
+  ],
+  "description": "The wedding homesite",
+  "license": "MIT",
+  "homepage": "petterochcharlotta.se",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}
